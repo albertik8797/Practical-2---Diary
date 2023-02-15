@@ -1,0 +1,33 @@
+﻿<Window x:Class="t_t_e.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:t_t_e"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="420">
+    <Grid>
+        <Button x:Name="knopka1" Content="" HorizontalAlignment="Left" Margin="29,24,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka2" Content="" HorizontalAlignment="Left" Margin="134,24,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka3" Content="" HorizontalAlignment="Left" Margin="240,24,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka4" Content="" HorizontalAlignment="Left" Margin="29,128,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka5" Content="" HorizontalAlignment="Left" Margin="134,128,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka6" Content="" HorizontalAlignment="Left" Margin="240,128,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka7" Content="" HorizontalAlignment="Left" Margin="29,230,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka8" Content="" HorizontalAlignment="Left" Margin="134,230,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="knopka9" Content="" HorizontalAlignment="Left" Margin="240,230,0,0" VerticalAlignment="Top" Height="90" Width="90" FontSize="33" FontWeight="Normal" RenderTransformOrigin="1,1" Click="but1_Click"/>
+        <Button x:Name="XBut" Content="X" HorizontalAlignment="Left" Margin="342,90,0,0" VerticalAlignment="Top" Height="35" Width="59" Click="XBut_Click" FontSize="20"/>
+        <Button x:Name="Obut" Content="0" HorizontalAlignment="Left" Margin="343,152,0,0" VerticalAlignment="Top" Height="35" Width="59" Click="Obut_Click" FontSize="20"/>
+        <Button x:Name="Ngbut" Content="New game" HorizontalAlignment="Left" Margin="213,328,0,0" VerticalAlignment="Top" Width="98" Click="Ngbut_Click" Height="45" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.002" ScaleY="0.998"/>
+                    <SkewTransform AngleY="1.528"/>
+                    <RotateTransform Angle="-1.318"/>
+                    <TranslateTransform X="-1.134" Y="1.151"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock x:Name="WinnerTB" HorizontalAlignment="Left" Margin="17,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="188" FontSize="15"><Run Language="ru-ru" Text="победитель"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
+    </Grid>
+</Window>
